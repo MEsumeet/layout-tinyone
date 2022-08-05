@@ -1,0 +1,139 @@
+
+/* ########### header-heroImg section css ########### */
+.heroImg{
+    background-color: #fbdb00;
+    padding: 60px 0 108px 0;
+}
+
+.navbar {
+	display: inline-block;
+}
+.navbar li {
+	display: inline-block;
+	margin: 0 18px;
+	height: 42px;
+	line-height: 12px;
+}
+.navbar li:first-child{
+    margin-left: 0;
+}
+.navbar li:last-child{
+	margin-right: 0;
+}
+.navbar li a {
+	font-size: 22px;
+	font-weight: bold;
+	color: #010101;
+	text-transform: capitalize;
+	display: inline-block;
+	padding: 18px;
+}
+.navbar li a:last-child{
+	padding-right: 12px;
+}
+.inspire{
+	margin-top: 70px;
+}
+
+.OSLinks li{
+	display: inline-block;
+	margin-right: 40px;
+	
+}
+.OSLinks li i{
+	font-size: 40px;
+	color: #010101;
+}
+.ipadMini {
+	margin-left: 30px;
+}
+
+
+/* ########### main-features section css ########### */
+.features{
+	padding: 115px 0 80px;
+}
+
+.thumbnail i{
+	font-size: 40px;
+	text-align: center;
+}
+
+.thumbInfo h3{
+	font-size: 22px;
+	font-weight: bold;
+	color: #010101;
+	margin-bottom: 15px;
+}
+.thumbInfo p{
+	font-size: 16px;
+	color: #898989;
+	margin-bottom: 80px;
+}
+
+
+/* ########### footer-contactUs section css ########### */
+
+.contactUs{
+	background-color: #010101;
+	padding: 95px 0 135px;
+}
+
+.keepInTouch .heading{
+	color: #fcdb00;
+	font-weight: normal;
+	margin-bottom: 15px;
+}
+
+.keepInTouch .subHeading{
+	color: #898989;
+}
+
+.submit .form-group{
+	display: inline-block;
+	width: 100%
+}
+
+.submit input{
+	height: 40px;
+	border-style: none;
+	border-radius: 5px;
+	display: inline-block;
+	font-size: 16px;
+}
+
+.submit input[type='text']{
+	color: #898989;
+	padding: 20px;
+	width: calc(100% * 9 / 12);
+}
+.submit input[type='submit']{
+	margin-left: 20px;
+	width: calc(100% * 2 / 12);
+	background-color: #fbdb00;
+	color: #010101;
+	text-transform: uppercase;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+.SNS li{
+	display: inline-block;
+	margin-right: 32px;
+	
+}
+.SNS li i{
+	font-size: 35px;
+	color: #fcdb00;
+}
+
+.footer li{
+	margin-bottom: 5px;
+}
+.footer li > *{
+	color: #ffffff;
+	font-size: 16px;
+}
+.footer li span{
+	display: block;
+}

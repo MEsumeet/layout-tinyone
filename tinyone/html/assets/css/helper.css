@@ -1,0 +1,94 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* helper css*/
+.container{
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.row, .row::after, .row::before{
+    width: 100%;
+    display: table;
+    clear: both;
+}
+
+li{
+    list-style: none;
+}
+
+a, a:visited{
+    text-decoration: none;
+}
+
+.text-right{
+    text-align: right;
+}
+.text-center{
+    text-align: center;
+}
+
+div[class ^= "col"]{
+    float: left;
+    padding: 0 15px;
+}
+
+.col3{
+    width: calc(100% * 3 /12);
+}
+.col4{
+    width: calc(100% * 4 /12);
+}
+.col5{
+    width: calc(100% * 5 /12);
+}
+.col9{
+    width: calc(100% * 9 /12);
+}
+.col10{
+    width: calc(100% * 10 /12);
+}
+
+.offset-1{
+    margin-left: calc(100% * 1 /12);
+}
+.offset-2{
+    margin-left: calc(100% * 2 /12);
+}
+
+
+.mb-35{
+    margin-bottom: 35px;
+}
+.mb-60{
+    margin-bottom: 60px;
+}
+.mb-75{
+    margin-bottom: 75px;
+}
+.mb-80{
+    margin-bottom: 80px;
+}
+.mb-125{
+    margin-bottom: 125px;
+}
+
+.heading{
+    font-size: 32px;
+    font-weight: bold;
+    color: #010101;
+    margin-bottom: 15px;
+}
+.subHeading{
+    font-size: 20px;
+    color: #313841;
+    margin-bottom: 15px;
+}
+.para{
+    font-size: 16px;
+    color: #555555;
+}
+
